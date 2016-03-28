@@ -136,6 +136,10 @@ public func <= (first: Article, other: Article) -> Bool {
 
 public class ProcessConfigArticles
 {
+    public init ()
+    {
+    }
+    
     private let EMPTY_PENDING_NAMES: Array<ConfigArticleCode> = [];
     
     public func ConfigureArticles() -> Array<Article>
